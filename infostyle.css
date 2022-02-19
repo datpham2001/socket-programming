@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("CSS.jpg");
+  background-size: cover;
+  font-family: "Sacrament", cursive;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.container h1 {
+  font-family: "Allura", cursive;
+  font-size: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: black;
+}
+
+.team {
+  display: -webkit-flex;
+  text-align: left;
+  width: auto;
+  justify-content: center;
+}
+
+.team .member {
+  background: #bbbbbb;
+  margin: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 500px;
+  padding: 50px;
+  line-height: 50px;
+  position: relative;
+  border-radius: 10px;
+  opacity: 95%;
+}
+
+.team .member h3 {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  margin: 12px 0;
+}
+
+.team .member .team_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.team .member .team_image img {
+  box-shadow: #14640d;
+  background-origin: padding-box;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  border-style: solid green;
+}
+
+.Back {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left: 600px;
+  border-radius: 20px;
+  border-bottom: 4px solid #4caf50;
+}
+
+.Goto {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left: 600px;
+  border-radius: 20px;
+  border-bottom: 5px solid #4caf50;
+}

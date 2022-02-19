@@ -1,0 +1,85 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+body {
+  margin: 0;
+  padding: 0;
+  background: url("CSS.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 0px 40% 0px;
+  top: -45px;
+  position: absolute;
+  left: 8px;
+}
+
+.login-box {
+  background-color: #333333;
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 100px;
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.login-box h1 {
+  float: left;
+  font-size: 40px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  padding: 13px 5px 5px;
+  text-align: center;
+}
+
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+i.fa-eye {
+  position: absolute;
+  right: 100px;
+}
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: antiquewhite;
+  font-size: 18px;
+  width: 80px;
+  float: left;
+  margin: 0 10px;
+  width: 70%;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: #45a049;
+  background-color: #45a049;
+  color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="/web_icon.ico">
+        <link rel="stylesheet" href="filestyle.css">
+        <title>Download Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Download Files</h1>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="/download/fileText.txt" download>fileText.txt</a></td>
+                        <td>1 KB</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/download/image.jpg" download>image.jpg</a></td>
+                        <td>1.5 MB</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/download/sound.mp3" download>sound.mp3</a></td>
+                        <td>985 KB</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/download/video.webm" download>video.webm</a></td>
+                        <td>6.9 MB</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/download/Project_Socket.pdf" download>Project_Socket.pdf</a></td>
+                        <td>650 KB</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="buttons">
+                <button class="Back" onclick="goToInfoPage()">Back</button>
+            </div>
+        </div>
+    </body>
+    <script>
+        function goToInfoPage() {
+            window.location.href = "/info.html"
+        }
+    </script>
+</html>

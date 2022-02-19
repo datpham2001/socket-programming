@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Team Member's Information</title>
+        <link rel="icon" type="image/x-icon" href="/web_icon.ico">
+        <link rel="stylesheet" href="./infostyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Our Team</h1>
+            <div class="team">
+                <div class="member">
+                    <div class="team_image">
+                        <img src="PhamThanhDat.jpg" alt="member_image">
+                    </div>
+                    <h3>Phạm Thành Đạt</h3>
+                    <p>Studying at University of Science (HCMUS)</p>
+                    <p>Class: 19CTT2</p>
+                    <p>ID: 19120473</p>
+                </div> 
+                <div class="member">
+                    <div class="team_image">
+                        <img src="cuong.jpg" alt="member_image">
+                    </div>
+                    <h3>Trần Vũ Việt Cường</h3>
+                    <p>Studying at University of Science (HCMUS)</p>
+                    <p>Class: 19CTT2</p>
+                    <p>ID: 19120465</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="Back" onclick="goToHompage()">Back</button>
+                <button class="Goto" onclick="goToDownload()">Go to Download Page</button>
+            </div>
+        </div>
+    </body>
+    <script>
+        function goToHompage() {
+            window.location.href="/"
+        }
+
+        function goToDownload() {
+            window.location.href="/files.html"
+        }
+    </script>
+</html>
